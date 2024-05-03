@@ -57,7 +57,7 @@ plt.plot(dot_counts, vertical_distances, marker='none', linestyle='-')
 plt.title('Corallite prediction count vs. Vertical distance', fontname='Arial', fontsize=16)
 plt.xlabel('Corallite count', fontname='Arial', fontsize=14)
 plt.ylabel('Vertical distance (mm)', fontname='Arial', fontsize=14)
-plt.gca().invert_yaxis()  # Invert the y-axis
+plt.gca().invert_yaxis()  
 plt.grid(False)
 plt.show()
 
