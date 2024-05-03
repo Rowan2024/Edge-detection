@@ -52,7 +52,7 @@ data = {'Vertical Distance (mm)': vertical_distances,
 df = pd.DataFrame(data)
 
 # Plot the data
-plt.figure(figsize=(6, 10))  # Adjust the figure size to be more vertical
+plt.figure(figsize=(6, 10)) 
 plt.plot(dot_counts, vertical_distances, marker='none', linestyle='-')
 plt.title('Corallite prediction count vs. Vertical distance', fontname='Arial', fontsize=16)
 plt.xlabel('Corallite count', fontname='Arial', fontsize=14)
